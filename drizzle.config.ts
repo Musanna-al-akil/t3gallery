@@ -8,6 +8,5 @@ export default {
   dbCredentials: {
     connectionString: env.POSTGRES_URL,
   },
-  out: "./drizzle",
   tablesFilter: ["gallery_*"],
 } satisfies Config;
