@@ -9,6 +9,9 @@ export default  function PhotoModal({
   if (Number.isNaN(idAsNumber)) throw new Error("Invalid photo id");
 
   return (
+    <div className="w-full">
       <FullPageImageView id={idAsNumber} />
+    </div>
+      
   );
 }
